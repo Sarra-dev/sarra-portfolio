@@ -1,0 +1,45 @@
+# ---------- Dependencies ----------
+node_modules/
+.pnp
+.pnp.js
+
+# ---------- Python virtual env (not part of the site) ----------
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# ---------- Next.js build output ----------
+.next/
+out/
+build/
+dist/
+
+# ---------- Environment variables / secrets ----------
+.env
+.env.*
+!.env.example
+
+# ---------- Next.js generated ----------
+next-env.d.ts
+*.tsbuildinfo
+
+# ---------- Vercel ----------
+.vercel/
+
+# ---------- Logs & debug ----------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---------- OS / editor files ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# ---------- Testing / coverage ----------
+coverage/
